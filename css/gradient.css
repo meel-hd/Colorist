@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family: monospace;
+}
+h3 {
+    color: #0487e2;
+    font-weight: bold;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#colorView {
+    width: 350px;
+    height: 300px;
+    margin-top: 85px;
+    background-color: #000;
+    border-radius: 50px;
+    box-shadow: 2px 4px 7px #00000025;
+}
+button {
+    height: 45px;
+    color: white;
+    font-size: 20px;
+    background-color: #0487e2;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    width: 150px;
+    margin-top: 25px;
+}
+button:active {
+    transform: scale(1.05);
+}
+#navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    list-style: none;
+    bottom: 0;
+    position: fixed;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-shadow: 1px 5px 7px #00000040;
+}
+#navigation a {
+    margin-right: 35px;
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #0487e2;
+    font-family: monospace;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#navigation a:hover {
+    background-color: #0487e220;
+
+}
+svg {
+    width: 30px;
+    height: 30px;
+}
